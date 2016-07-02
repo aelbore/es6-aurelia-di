@@ -20,3 +20,5 @@ gulp.task('build', () => {
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('dist'))
 });
+
+gulp.task('default', ['build']);
