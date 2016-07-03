@@ -8,6 +8,6 @@ export class PersonService {
 	}
 
 	getPersons(){
-		return ["Pedro", "Juan"];
+		return this._personList.getPersons();
 	}
 }

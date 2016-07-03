@@ -1,5 +1,5 @@
 import { PersonService } from './person.service';
-import { inject } from 'aurelia-dependency-injection';
+import { inject } from './di';
 
 @inject(PersonService)
 export class Person {
